@@ -1,15 +1,16 @@
-import { React } from "react";
+import React from "react";
 import { Link } from 'react-router-dom';
 // import './App.css';
+
 const Navbar = () => {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-white py-1 shadow-sm">
         <div className="container">
           <div className="img-myntra">
-          <Link className="navbar-brand fw-bold fs-4" to="#">
-          <img src="/assets/myntra.webp" className="card-img" alt="backgrond"/>
-          </Link>
+            <Link className="navbar-brand fw-bold fs-4" to="#">
+              <img src="/assets/myntra.webp" className="card-img" alt="background"/>
+            </Link>
           </div>
           <button
             className="navbar-toggler"
@@ -62,4 +63,5 @@ const Navbar = () => {
     </div>
   );
 };
+
 export default Navbar;
